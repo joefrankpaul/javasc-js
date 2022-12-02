@@ -1,7 +1,8 @@
-/* body{
+body{
+    background-color: rgb(232, 214, 196);
     margin: 0;
     padding: 0;
-} */
+}
 *{
     box-sizing: border-box;
 }
@@ -57,14 +58,16 @@ form{
     margin: auto;
     /* text-align: center; */
     padding: 30px;
-    margin-top: 50px;
-    border-radius: 0.5em 3em;
+    margin-top: 70px;
+    border-radius: 0.2em 3em;
 }
 form div input{
      width: 100%;
+     height: 1.5rem;
      border-radius: 20px;
      border: none;
      cursor: pointer;
+     margin-bottom: 15px;
 }
 form h1{
     text-align: center;
@@ -76,6 +79,7 @@ form h1{
     background-color: rgba(165, 42, 42, 0.41);
     border: none;
     width: 100px;
+    height: 2rem;
     border-radius: 0.2em 4em ;
     cursor: pointer;
 }
@@ -89,10 +93,51 @@ form input:hover{
 .show button:hover{
 opacity: 0.8;
 }
+/* styling registration */
+/* styling reg h1 */
+.model >h1{
+margin: 0px;
+}
+.size{
+    margin-top: 0px;
+}
+
+.son{
+    text-align: center;
+}
+.model{
+    margin-top: 50px;
+}
+.model h1{
+    margin-bottom: 10px;
+}
+/* styling reg h1 */
+.fom{
+    text-align: center;
+}
+/* styling button div */
+.soon{
+    margin-top: 10px;
+    text-align: end;
+    }
+    /* stying button */
+.soul{
+    border-radius: 20px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: blueviolet;
+}
+/* .sin{
+    text-align: center;
+} */
+
 
 /* ################################################## */
 
 /* Styling for form-3 */
+
+
+
 
 
 

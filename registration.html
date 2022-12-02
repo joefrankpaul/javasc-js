@@ -3,45 +3,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>registration</title>
+    <link rel="stylesheet" href="practice.css">
   </head>
   <body>
     <section class="model">
-      <h1>Register a New Account</h1>
+      <h1 class="fom">Register a New Account</h1>
       <form action="" class="size">
         <div>
-          <label for="email-address">Email address</label><br>
+          <label for="email-address">Email address</label>
           <input
             type="email"
             name="email-address"
             id="email-address"
             placeholder="email" autofocus
           />
-        </div><br>
+        </div>
 
         <div>
-          <label for="full-name">Name</label><br>
+          <label for="full-name">Name</label>
           <input type="text" name="full-name" id="full-name" placeholder="Enter Full Name">
-        </div><br>
+        </div>
 
         <div>
-            <label for="register-password">Password</label><br>
+            <label for="register-password">Password</label>
             <input type="password" name="register-password" id="register-password" placeholder="enter password">
-        </div><br>
+        </div>
 
         <div>
-            <label for="reregister-c-password">Comfirm password</label><br>
+            <label for="reregister-c-password">Comfirm password</label>
             <input type="password" name="reregister-c-password" id="reregister-c-password" placeholder="Comfirm password">
-        </div><br>
+        </div>
+
+        <label for="check-box">
+          <input type="checkbox" name="check-box">
+          Remember me
+        </label>
 
         <div>
-          <div>
-            <input type="checkbox" name="check-box">
-            <label for="check-box">Remember me</label>
-          </div>
           <div>
             <label for="list-of-countries">Choose your Country</label>
             <select name="Countries" id="Countries">
+              <option value="none">None</option>
               <option value="Nigeria" >Nigeria</option>
               <option value="Zimbawe">Zimbawe</option>
               <option value="South Korea">South Korea</option>
@@ -50,9 +53,13 @@
               <option value="Australia">Australia</option>
             </select>
           </div>
-        </div><br>
-
-        <input type="submit" value="Register Account">
+        </div>
+        <div class="soon">
+          <button type="submit" class="soul">Register Account</button>
+        </div>
+        <!-- <div class="son">
+          <input type="submit" value="Register Account" >
+        </div> -->
       </form>
     </section>
   </body>
