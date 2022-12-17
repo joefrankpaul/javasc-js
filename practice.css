@@ -51,17 +51,32 @@ img{
 /* ######################################### */
 
 /* styling for card-2.html */
-
-form{
+/* styling for all forms */
+.regform{
     background-color: bisque;
-    width: 40%;
+    width: 60%;
     margin: auto;
     /* text-align: center; */
     padding: 30px;
     margin-top: 70px;
     border-radius: 0.2em 3em;
+    border: #ffffff 3px solid;
 }
-form div input{
+.sol{
+    height: 0.6rem;
+    /* width: 16px;
+    margin: 0px;
+    padding: 0px; */
+}
+
+.slac{
+padding: 2rem 1rem;
+border: 2px solid rgb(183, 180, 180);
+}
+
+/* styling for all input */
+
+.all-input{
      width: 100%;
      height: 1.5rem;
      border-radius: 20px;
@@ -69,12 +84,15 @@ form div input{
      cursor: pointer;
      margin-bottom: 15px;
 }
+/* styling all h1 */
 form h1{
     text-align: center;
 }
+/* styling form-2 div button */
 .show{
     text-align: center;
 }
+/* styling form-2 button */
 .show button{
     background-color: rgba(165, 42, 42, 0.41);
     border: none;
@@ -105,6 +123,7 @@ margin: 0px;
 .son{
     text-align: center;
 }
+/* styling registration section */
 .model{
     margin-top: 50px;
 }
@@ -122,24 +141,81 @@ margin: 0px;
     }
     /* stying button */
 .soul{
+    background-color: lightslategray;
     border-radius: 20px;
     height: 30px;
     border-radius: 20px;
     border-color: blueviolet;
 }
+/* styling button hovering */
+.soul:hover{
+    background-color: rgba(230, 236, 242, 0.422);
+    border-color: rgb(92, 132, 164);
+}
 /* .sin{
     text-align: center;
 } */
-
-
 /* ################################################## */
 
 /* Styling for form-3 */
+/* .mode{
+    width: 100%;
+    margin: auto;
+} */
+#order-form{
+    background-color: #ffffff;
+    width: 1000px;
+    margin: auto;
+    padding: 30px;
+    line-height: 1.5rem;
+}
+.ford label{
+    display: block;
+}
+.snail{
+    display: flex;
+    /* gap: 5px; */
+    justify-content: space-between;
+}
+.snail input{
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    /* height: 10px; */
+    border-radius: 5px;
+    /* line-height: 1.5rem;    */
+}
+.input1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* margin-left: 50px; */
+    line-height: 3px;
+}
+.sed{
+    margin-top: 1.4rem;
+}
+.slon{
 
-
-
-
-
-
+}
+.button{
+    /* float: right; */
+    width: 6rem;
+    height: 2rem;
+    /* padding: ; */
+    margin-left: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 128, 0, 0.512);
+    /* background-image: linear-gradient(90deg, #00800051); */
+}
+.button:hover{
+    background-color: rgba(0, 128, 0, 0.512);
+    opacity: 0.7;
+}
+.dev{
+    line-height: 2em;
+    background-image: linear-gradient(90deg, #0000ff);
+}
 
 
