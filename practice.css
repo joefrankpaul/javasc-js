@@ -286,5 +286,25 @@ margin: 0px;
     width: 800px;
     text-align: center;
 }
+.top-lesson{
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+}
+.table-3{
+    width: 90%;
+    margin: auto;
+}
+.tabula3{
+    border-color: blue;
+    width: 300px;
+    /* margin: 30px; */
+}
+.tabula3-i{
+    border-color: red;
+    width: 300px;
+    /* margin-left: 30px; */
+}
+
 
 
